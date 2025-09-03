@@ -3,18 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>خدمة صيانة الأجهزة</title>
+    <title>مركز صيانة سامسونج المعتمد - إصلاح فوري وضمان</title>
     
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Google Fonts (Cairo for Arabic) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
     
-    <!-- Font Awesome for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" xintegrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <style>
         /* Custom styles for the page */
@@ -23,7 +20,7 @@
             padding-bottom: 120px; /* Space for the bottom banner */
         }
         .hero-gradient {
-            background-image: linear-gradient(to left, rgba(0, 58, 112, 0.9), rgba(28, 111, 162, 0.8)), url('https://raw.githubusercontent.com/code-house10/17416-adham/refs/heads/main/images/Electrical%20appliances.jpg');
+            background-image: linear-gradient(to left, rgba(0, 58, 112, 0.9), rgba(28, 111, 162, 0.8)), url('images/Electrical%20appliances.jpg');
         }
         .faq-gradient {
             background-image: linear-gradient(to bottom, #003a70, #1c6fa2);
@@ -53,7 +50,6 @@
 </head>
 <body class="bg-white">
 
-    <!-- 1. Header Top Bar -->
     <header class="bg-white">
         <div class="bg-white py-2 text-sm">
             <div class="container mx-auto px-4 flex justify-between items-center">
@@ -67,24 +63,20 @@
             </div>
         </div>
 
-        <!-- 2. Main Navigation Bar -->
         <nav id="main-nav" class="bg-white border-b border-gray-200 sticky top-0 z-50">
             <div class="container mx-auto px-4">
                 <div class="flex justify-between items-center py-4">
-                    <!-- Logo -->
                     <a href="#" class="text-2xl font-bold text-[#032847]">
                         <span class="bg-[#1ca0dd] text-white rounded-full p-2 ml-2"><i class="fas fa-tools"></i></span>
-                        الدولية<span class="text-[#1ca0dd]">انترناشيونال</span>
+                        صيانة سامسونج المعتمدة
                     </a>
                     
-                    <!-- Mobile Menu Button -->
                     <div class="lg:hidden">
                         <button id="mobile-menu-button" class="text-gray-800 focus:outline-none">
                             <i class="fas fa-bars text-2xl"></i>
                         </button>
                     </div>
 
-                    <!-- Menu -->
                     <div class="hidden lg:flex items-center space-x-6 font-medium text-gray-700">
                         <a href="#" class="hover:text-[#1ca0dd]">الرئيسية</a>
                         <a href="#" class="hover:text-[#1ca0dd]">خدماتنا</a>
@@ -94,15 +86,13 @@
                         <a href="#" class="hover:text-[#1ca0dd]">اتصل بنا</a>
                     </div>
                     
-                    <!-- CTA Button -->
                     <div class="hidden lg:block">
-                        <a href="#" class="bg-[#1ca0dd] text-white px-6 py-3 rounded-md font-semibold hover:bg-[#1785b8] transition-colors flex items-center">
-                            <i class="fas fa-shopping-cart ml-2"></i>
-                            اطلب عرض سعر
+                        <a href="tel:17416" class="bg-[#1ca0dd] text-white px-6 py-3 rounded-md font-semibold hover:bg-[#1785b8] transition-colors flex items-center">
+                            <i class="fas fa-phone ml-2"></i>
+                            اتصل الآن
                         </a>
                     </div>
                 </div>
-                <!-- Mobile Menu -->
                 <div id="mobile-menu" class="hidden lg:hidden py-4 text-right">
                     <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-100">الرئيسية</a>
                     <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-100">خدماتنا</a>
@@ -110,8 +100,8 @@
                     <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-100">المدونة</a>
                     <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-100">المتجر</a>
                     <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-100">اتصل بنا</a>
-                    <a href="#" class="block bg-[#1ca0dd] text-white mt-4 text-center py-3 rounded-md font-semibold hover:bg-[#1785b8] transition-colors">
-                        اطلب عرض سعر
+                    <a href="tel:17416" class="block bg-[#1ca0dd] text-white mt-4 text-center py-3 rounded-md font-semibold hover:bg-[#1785b8] transition-colors">
+                        اتصل الآن
                     </a>
                 </div>
             </div>
@@ -119,23 +109,20 @@
     </header>
 
     <main>
-        <!-- 3. Hero Banner -->
         <section class="hero-gradient bg-cover bg-center text-white">
             <div class="container mx-auto px-4 py-24 lg:py-40">
                 <div class="flex flex-col lg:flex-row items-center">
-                    <!-- Right Text -->
                     <div class="lg:w-1/2 text-center lg:text-right mb-10 lg:mb-0">
-                        <h1 class="text-4xl md:text-6xl font-bold leading-tight">صيانة الأجهزة المنزلية بجودة عالية</h1>
+                        <h1 class="text-4xl md:text-6xl font-bold leading-tight">صيانة سامسونج المعتمدة بضمان</h1>
                         <p class="mt-4 text-lg text-gray-200 max-w-lg mx-auto lg:mx-0">
-                           نقدم خدمات صيانة شاملة لجميع الأجهزة المنزلية.
+                           إصلاح جميع أجهزة سامسونج بضمان. فريق متخصص لـ صيانة سامسونج المعتمدة. اتصل الآن.
                         </p>
-                        <a href="#" class="mt-8 inline-block bg-[#ff3b3b] text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-red-600 transition-colors">
-                            احصل على عرض سعر الآن
+                        <a href="tel:17416" class="mt-8 inline-block bg-[#ff3b3b] text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-red-600 transition-colors">
+                            الخط الساخن سامسونج: اتصل الآن!
                         </a>
                     </div>
-                    <!-- Left Image -->
                     <div class="lg:w-1/2 flex justify-center lg:justify-start">
-                       <img src="https://raw.githubusercontent.com/code-house10/17416-adham/refs/heads/main/images/Electrical%20appliances%20maintenance%20technician.jpg" 
+                       <img src="images/Electrical%20appliances%20maintenance%20technician.jpg" 
                              onerror="this.onerror=null;this.src='https://placehold.co/500x500/003a70/FFFFFF?text=فني صيانة';" 
                              alt="فني صيانة يجلس بجانب غسالة" class="rounded-lg shadow-2xl w-full max-w-md">
                     </div>
@@ -143,83 +130,74 @@
             </div>
         </section>
 
-        <!-- 4. Client Logos Carousel -->
         <section class="bg-[#1ca0dd] py-8">
             <div class="container mx-auto px-4 text-center text-white">
-                <h2 class="text-2xl font-bold">بعض المؤسسات التي تعاملت معنا !</h2>
+                <h2 class="text-2xl font-bold">نحن شركاء صيانة معتمدون لماركات عالمية</h2>
             </div>
         </section>
 
-        <!-- 5. Services Section -->
         <section class="py-20 bg-white">
             <div class="container mx-auto px-4 text-center">
-                <h2 class="text-3xl font-bold text-gray-800">خدمات صيانة الأجهزة</h2>
-                <p class="text-gray-600 mt-2">نقدم صيانة متكاملة للأجهزة المنزلية مثل الغسالات والثلاجات والديب فريزر.</p>
+                <h2 class="text-3xl font-bold text-gray-800">خدمات صيانة سامسونج</h2>
+                <p class="text-gray-600 mt-2">نقدم صيانة متكاملة لجميع أجهزة سامسونج المنزلية.</p>
                 <div class="w-20 h-1 bg-[#1ca0dd] mx-auto mt-4 mb-12"></div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- Service Card 1 -->
-                    <div class="p-8 rounded-lg text-center hover:shadow-xl transition-shadow duration-300">
-                        <div class="text-5xl text-[#1ca0dd] mb-4"><i class="fas fa-snowflake"></i></div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2 flex justify-center items-center">
-                            <span>صيانة الديب فريزر</span>
-                            <i class="fas fa-shield-alt text-green-500 mr-2"></i>
-                        </h3>
-                        <p class="text-gray-500">خدمات صيانة ديب فريزر موثوقة وسريعة.</p>
-                    </div>
-                    <!-- Service Card 2 -->
                     <div class="p-8 rounded-lg text-center hover:shadow-xl transition-shadow duration-300">
                         <div class="text-5xl text-[#1ca0dd] mb-4"><i class="fas fa-refrigerator"></i></div>
                         <h3 class="text-xl font-bold text-gray-800 mb-2 flex justify-center items-center">
-                            <span>إصلاح الثلاجات</span>
+                            <span>صيانة ثلاجات سامسونج</span>
                             <i class="fas fa-shield-alt text-green-500 mr-2"></i>
                         </h3>
-                        <p class="text-gray-500">إصلاح ثلاجات لضمان أداء ممتاز.</p>
+                        <p class="text-gray-500">إصلاح مشاكل التبريد والتسريب والأعطال الكهربائية.</p>
                     </div>
-                    <!-- Service Card 3 -->
                     <div class="p-8 rounded-lg text-center hover:shadow-xl transition-shadow duration-300">
                         <div class="text-5xl text-[#1ca0dd] mb-4"><i class="fas fa-washing-machine"></i></div>
                         <h3 class="text-xl font-bold text-gray-800 mb-2 flex justify-center items-center">
-                           <span>صيانة الغسالات</span>
-                           <i class="fas fa-shield-alt text-green-500 mr-2"></i>
-                        </h3>
-                        <p class="text-gray-500">صيانة غسالات بكفاءة واحترافية عالية.</p>
-                    </div>
-                     <!-- Service Card 4 -->
-                    <div class="p-8 rounded-lg text-center hover:shadow-xl transition-shadow duration-300">
-                        <div class="text-5xl text-[#1ca0dd] mb-4"><i class="fas fa-blender"></i></div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2 flex justify-center items-center">
-                            <span>صيانة الأجهزة الصغيرة</span>
+                            <span>صيانة غسالات سامسونج</span>
                             <i class="fas fa-shield-alt text-green-500 mr-2"></i>
                         </h3>
-                        <p class="text-gray-500">نصلح الخلاطات والمكاوي والمزيد.</p>
+                        <p class="text-gray-500">حل مشاكل العصر، صرف المياه، والأصوات الغريبة.</p>
                     </div>
-                     <!-- Service Card 5 -->
                     <div class="p-8 rounded-lg text-center hover:shadow-xl transition-shadow duration-300">
-                        <div class="text-5xl text-[#1ca0dd] mb-4"><i class="fas fa-wave-square"></i></div>
+                        <div class="text-5xl text-[#1ca0dd] mb-4"><i class="fas fa-snowflake"></i></div>
                         <h3 class="text-xl font-bold text-gray-800 mb-2 flex justify-center items-center">
-                            <span>صيانة الميكروويف</span>
-                            <i class="fas fa-shield-alt text-green-500 mr-2"></i>
-                        </h3>
-                        <p class="text-gray-500">حلول لمشاكل التسخين والأزرار.</p>
-                    </div>
-                     <!-- Service Card 6 -->
-                    <div class="p-8 rounded-lg text-center hover:shadow-xl transition-shadow duration-300">
-                        <div class="text-5xl text-[#1ca0dd] mb-4"><i class="fas fa-fan"></i></div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2 flex justify-center items-center">
-                           <span>صيانة المكيفات</span>
+                           <span>صيانة ديب فريزر سامسونج</span>
                            <i class="fas fa-shield-alt text-green-500 mr-2"></i>
                         </h3>
-                        <p class="text-gray-500">خدمات تبريد وتكييف لراحتك.</p>
+                        <p class="text-gray-500">نقدم خدمة سريعة لإصلاح مشاكل التجميد، تراكم الثلج، والضواغط.</p>
+                    </div>
+                     <div class="p-8 rounded-lg text-center hover:shadow-xl transition-shadow duration-300">
+                        <div class="text-5xl text-[#1ca0dd] mb-4"><i class="fas fa-oven"></i></div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2 flex justify-center items-center">
+                            <span>صيانة ميكروويف سامسونج</span>
+                            <i class="fas fa-shield-alt text-green-500 mr-2"></i>
+                        </h3>
+                        <p class="text-gray-500">حلول سريعة لأعطال الميكروويف من عدم التسخين إلى الأزرار.</p>
+                    </div>
+                     <div class="p-8 rounded-lg text-center hover:shadow-xl transition-shadow duration-300">
+                        <div class="text-5xl text-[#1ca0dd] mb-4"><i class="fas fa-utensils"></i></div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2 flex justify-center items-center">
+                            <span>صيانة غسالات اطباق سامسونج</span>
+                            <i class="fas fa-shield-alt text-green-500 mr-2"></i>
+                        </h3>
+                        <p class="text-gray-500">إصلاح مشاكل التنظيف والتسخين وتصريف المياه بأسعار تنافسية.</p>
+                    </div>
+                     <div class="p-8 rounded-lg text-center hover:shadow-xl transition-shadow duration-300">
+                        <div class="text-5xl text-[#1ca0dd] mb-4"><i class="fas fa-tools"></i></div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2 flex justify-center items-center">
+                           <span>صيانة جميع أجهزة سامسونج</span>
+                           <i class="fas fa-shield-alt text-green-500 mr-2"></i>
+                        </h3>
+                        <p class="text-gray-500">خبرة طويلة في صيانة جميع أجهزة سامسونج المنزلية.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Call to Action Section -->
         <section class="bg-gray-100 py-16">
             <div class="container mx-auto px-4 text-center">
-                <h2 class="text-3xl font-bold text-gray-800 mb-3">تحتاج إلى مساعدة فورية؟</h2>
-                <p class="text-gray-600 text-lg mb-8">اتصل بخبراء الصيانة لدينا الآن للحصول على خدمة سريعة وموثوقة.</p>
+                <h2 class="text-3xl font-bold text-gray-800 mb-3">تحتاج إلى صيانة فورية؟</h2>
+                <p class="text-gray-600 text-lg mb-8">اتصل بخبراء صيانة سامسونج لدينا الآن للحصول على خدمة سريعة وموثوقة.</p>
                 <div class="flex flex-col md:flex-row justify-center items-center gap-4">
                     <a href="tel:01030510734" class="bg-green-500 text-white font-bold py-3 px-6 rounded-lg text-lg hover:bg-green-600 transition-colors flex items-center justify-center">
                         <i class="fas fa-phone-alt ml-2"></i>
@@ -238,38 +216,36 @@
         </section>
 
 
-        <!-- 6. Image Gallery -->
         <section class="py-20 bg-gray-50">
             <div class="container mx-auto px-4">
-                 <h2 class="text-3xl font-bold text-gray-800 text-center">أعمالنا بالصور</h2>
+                 <h2 class="text-3xl font-bold text-gray-800 text-center">أعمالنا في صيانة سامسونج بالصور</h2>
                 <div class="w-20 h-1 bg-[#1ca0dd] mx-auto mt-2 mb-12"></div>
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
                     <div class="overflow-hidden rounded-lg group">
-                        <img src="https://raw.githubusercontent.com/code-house10/17416-adham/refs/heads/main/images/refrigerator.jpg" onerror="this.onerror=null;this.src='https://placehold.co/400x400/CCCCCC/FFFFFF?text=صورة+1';" alt="فني يعمل على ثلاجة" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300">
+                        <img src="images/refrigerator.jpg" onerror="this.onerror=null;this.src='https://placehold.co/400x400/CCCCCC/FFFFFF?text=صورة+1';" alt="صيانة ديب فريزر سامسونج" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300">
                     </div>
                     <div class="overflow-hidden rounded-lg group">
-                        <img src="https://raw.githubusercontent.com/code-house10/17416-adham/refs/heads/main/images/washing-machine.jpg" onerror="this.onerror=null;this.src='https://placehold.co/400x400/CCCCCC/FFFFFF?text=صورة+2';" alt="فني يعمل على غسالة" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300">
+                        <img src="images/washing-machine.jpg" onerror="this.onerror=null;this.src='https://placehold.co/400x400/CCCCCC/FFFFFF?text=صورة+2';" alt="صيانة غسالة سامسونج" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300">
                     </div>
                     <div class="overflow-hidden rounded-lg group">
-                        <img src="https://raw.githubusercontent.com/code-house10/17416-adham/refs/heads/main/images/Dishwasher.jpg" onerror="this.onerror=null;this.src='https://placehold.co/400x400/CCCCCC/FFFFFF?text=صورة+3';" alt="فني يعمل على غسالة أطباق" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300">
+                        <img src="images/Dishwasher.jpg" onerror="this.onerror=null;this.src='https://placehold.co/400x400/CCCCCC/FFFFFF?text=صورة+3';" alt="صيانة غسالة اطباق سامسونج" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300">
                     </div>
                     <div class="overflow-hidden rounded-lg group">
-                        <img src="https://raw.githubusercontent.com/code-house10/17416-adham/refs/heads/main/images/Large-refrigerator.jpg" onerror="this.onerror=null;this.src='https://placehold.co/400x400/CCCCCC/FFFFFF?text=صورة+4';" alt="فني يصلح جهاز كبير" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300">
+                        <img src="images/Large-refrigerator.jpg" onerror="this.onerror=null;this.src='https://placehold.co/400x400/CCCCCC/FFFFFF?text=صورة+4';" alt="صيانة ثلاجة سامسونج" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-300">
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- 7. Testimonial Section -->
         <section class="py-20 bg-[#f8f9fc]">
             <div class="container mx-auto px-4 text-center">
-                <h2 class="text-3xl font-bold text-gray-800">ماذا يقول عملاؤنا</h2>
+                <h2 class="text-3xl font-bold text-gray-800">ماذا يقول عملاؤنا عن صيانة سامسونج؟</h2>
                 <div class="w-20 h-1 bg-[#1ca0dd] mx-auto mt-2 mb-12"></div>
                 <div class="max-w-3xl mx-auto">
                     <div class="bg-white p-8 rounded-lg shadow-lg relative">
                         <i class="fas fa-quote-right text-3xl text-[#1ca0dd] absolute top-4 right-4 opacity-25"></i>
                         <p class="text-gray-600 italic text-lg">
-                            "خدمة رائعة! الفني كان دقيقًا ومحترفًا، وأصلح ثلاجتي في أقل من ساعة. لا يمكنني أن أكون أكثر سعادة بالنتيجة. موصى به للغاية!"
+                            "اتصلت بـ **رقم صيانة سامسونج** وحصلت على خدمة ممتازة. الفني كان محترفاً جداً وأصلح الثلاجة في وقت قياسي. لا يمكنني أن أكون أكثر سعادة بالنتيجة!"
                         </p>
                         <i class="fas fa-quote-left text-3xl text-[#1ca0dd] absolute bottom-4 left-4 opacity-25"></i>
                     </div>
@@ -291,60 +267,54 @@
             </div>
         </section>
 
-        <!-- 8. FAQ Section -->
         <section class="py-20 bg-white">
             <div class="container mx-auto px-4">
                 <div class="flex flex-col lg:flex-row items-center gap-12">
-                    <!-- Right: Accordion -->
                     <div class="lg:w-1/2">
                          <div class="faq-gradient text-white p-8 rounded-lg">
-                            <h2 class="text-3xl font-bold mb-6">الأسئلة الشائعة</h2>
+                            <h2 class="text-3xl font-bold mb-6">الأسئلة الشائعة حول صيانة سامسونج</h2>
                             <div class="space-y-4">
-                                <!-- Accordion Item 1 -->
                                 <details class="bg-gray-100 text-gray-800 rounded-lg group text-right">
                                     <summary class="p-4 cursor-pointer font-semibold flex justify-between items-center group-hover:bg-gray-200">
-                                        ما أنواع الأجهزة التي تقومون بإصلاحها؟
+                                        هل تقدمون ضمانًا على إصلاحات سامسونج؟
                                         <span class="text-blue-500">
                                             <i class="fas fa-plus plus-icon"></i>
                                             <i class="fas fa-minus minus-icon"></i>
                                         </span>
                                     </summary>
                                     <div class="p-4 border-t border-gray-200">
-                                        نقوم بإصلاح مجموعة واسعة من الأجهزة المنزلية، بما في ذلك الثلاجات، الغسالات، المجففات، غسالات الأطباق، الأفران، والميكروويف من جميع الماركات الكبرى.
+                                        نعم، جميع إصلاحاتنا مدعومة بضمان شامل على قطع الغيار الأصلية والعمالة. تختلف مدة الضمان حسب نوع الإصلاح.
                                     </div>
                                 </details>
-                                <!-- Accordion Item 2 -->
                                 <details class="bg-gray-100 text-gray-800 rounded-lg group text-right">
                                     <summary class="p-4 cursor-pointer font-semibold flex justify-between items-center group-hover:bg-gray-200">
-                                        هل خدمتكم في نفس اليوم مضمونة؟
+                                        ما هو الخط الساخن لصيانة سامسونج؟
                                         <span class="text-blue-500">
                                             <i class="fas fa-plus plus-icon"></i>
                                             <i class="fas fa-minus minus-icon"></i>
                                         </span>
                                     </summary>
                                     <div class="p-4 border-t border-gray-200">
-                                        نسعى جاهدين لتقديم الخدمة في نفس اليوم للمكالمات التي نتلقاها قبل الظهر. ومع ذلك، يعتمد التوفر على جدولنا وموقعك. سنقدم دائمًا أقرب موعد ممكن.
+                                        للحصول على خدمة صيانة سريعة، يمكنك الاتصال على **الخط الساخن سامسونج** 17416.
                                     </div>
                                 </details>
-                                <!-- Accordion Item 3 -->
                                 <details class="bg-gray-100 text-gray-800 rounded-lg group text-right">
                                     <summary class="p-4 cursor-pointer font-semibold flex justify-between items-center group-hover:bg-gray-200">
-                                        هل تقدمون ضمانًا على إصلاحاتكم؟
+                                        هل لديكم خدمة عملاء سامسونج متاحة؟
                                         <span class="text-blue-500">
                                             <i class="fas fa-plus plus-icon"></i>
                                             <i class="fas fa-minus minus-icon"></i>
                                         </span>
                                     </summary>
                                     <div class="p-4 border-t border-gray-200">
-                                        نعم، جميع إصلاحاتنا مدعومة بضمان شامل على قطع الغيار والعمالة. تختلف مدة الضمان حسب نوع الإصلاح.
+                                        نعم، **خدمة عملاء سامسونج** متاحة على مدار الساعة للإجابة على استفساراتكم وتحديد موعد صيانة.
                                     </div>
                                 </details>
                             </div>
                          </div>
                     </div>
-                     <!-- Left: Image -->
-                    <div class="lg:w-1/2">
-                        <img src="https://raw.githubusercontent.com/code-house10/17416-adham/refs/heads/main/images/Mini%20refrigerator.jpg" 
+                     <div class="lg:w-1/2">
+                        <img src="images/Mini%20refrigerator.jpg" 
                              onerror="this.onerror=null;this.src='https://placehold.co/600x800/e0e0e0/FFFFFF?text=صورة الأسئلة';"
                              alt="Technician" class="rounded-lg shadow-lg w-full">
                     </div>
@@ -352,18 +322,16 @@
             </div>
         </section>
 
-        <!-- 9. Blog / Recent News Section -->
         <section class="py-20 bg-[#f8f9fc]">
             <div class="container mx-auto px-4">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl font-bold text-gray-800">آخر أخبارنا</h2>
+                    <h2 class="text-3xl font-bold text-gray-800">أحدث المقالات حول صيانة الأجهزة</h2>
                     <div class="w-20 h-1 bg-[#ff3b3b] mx-auto mt-2"></div>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-right">
-                    <!-- Blog Post 1 -->
                     <div class="bg-white rounded-lg overflow-hidden shadow-lg group">
                         <div class="overflow-hidden">
-                            <img src="https://raw.githubusercontent.com/code-house10/17416-adham/refs/heads/main/images/Other%20washing%20machine.jpg" onerror="this.onerror=null;this.src='https://placehold.co/400x250/e0e0e0/FFFFFF?text=مدونة';" alt="نصائح صيانة الغسالة" class="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-300">
+                            <img src="images/Other%20washing%20machine.jpg" onerror="this.onerror=null;this.src='https://placehold.co/400x250/e0e0e0/FFFFFF?text=مدونة';" alt="نصائح صيانة الغسالة" class="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-300">
                         </div>
                         <div class="p-6">
                             <div class="text-sm text-gray-500 mb-2">
@@ -375,10 +343,9 @@
                             </a>
                         </div>
                     </div>
-                    <!-- Blog Post 2 -->
                     <div class="bg-white rounded-lg overflow-hidden shadow-lg group">
                         <div class="overflow-hidden">
-                            <img src="https://raw.githubusercontent.com/code-house10/17416-adham/refs/heads/main/images/refrigerator.jpg" onerror="this.onerror=null;this.src='https://placehold.co/400x250/e0e0e0/FFFFFF?text=مدونة';" alt="تنظيم الثلاجة" class="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-300">
+                            <img src="images/refrigerator.jpg" onerror="this.onerror=null;this.src='https://placehold.co/400x250/e0e0e0/FFFFFF?text=مدونة';" alt="تنظيم الثلاجة" class="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-300">
                         </div>
                          <div class="p-6">
                             <div class="text-sm text-gray-500 mb-2">
@@ -390,10 +357,9 @@
                             </a>
                         </div>
                     </div>
-                    <!-- Blog Post 3 -->
                     <div class="bg-white rounded-lg overflow-hidden shadow-lg group">
                         <div class="overflow-hidden">
-                           <img src="https://raw.githubusercontent.com/code-house10/17416-adham/refs/heads/main/images/Electrical%20appliances.jpg" onerror="this.onerror=null;this.src='https://placehold.co/400x250/e0e0e0/FFFFFF?text=مدونة';" alt="أجهزة موفرة للطاقة" class="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-300">
+                           <img src="images/Electrical%20appliances.jpg" onerror="this.onerror=null;this.src='https://placehold.co/400x250/e0e0e0/FFFFFF?text=مدونة';" alt="أجهزة موفرة للطاقة" class="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-300">
                         </div>
                          <div class="p-6">
                             <div class="text-sm text-gray-500 mb-2">
@@ -410,16 +376,13 @@
         </section>
     </main>
 
-    <!-- 10. Footer Section -->
     <footer class="bg-[#032847] text-gray-300 text-right">
         <div class="container mx-auto px-4 py-16">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <!-- About Us -->
                 <div>
-                    <h4 class="text-lg font-bold text-white mb-4">الدوليه انترناشيونال</h4>
+                    <h4 class="text-lg font-bold text-white mb-4">مركز صيانة سامسونج</h4>
                     <p class="text-sm leading-relaxed">هام جدا لجميع زوار موقعنا برجاء العلم اننا مراكز خدمة خاصة نقوم بصيانة جميع ماركات الاجهزة المنزلية الكهربائية ولا نتبع اي توكيلات تجارية او شركات مصنعة ولا ندعي ذلك وجميع ما تم ذكره في هذا الموقع من كلمات او عبارات ما هي إلا كلمات دلالية لمحرك البحث لمساعدتكم في الوصول الينا .. وهذا إخلاء مسؤولية منا تجاه زوار الموقع وحرصا على عدم خداعكم شكرا لتفهمكم.</p>
                 </div>
-                <!-- Contact Info -->
                 <div>
                     <h4 class="text-lg font-bold text-white mb-4">معلومات الاتصال</h4>
                     <ul class="text-sm space-y-3">
@@ -430,7 +393,6 @@
                           <li class="flex items-start justify-end"><a href="tel:01021990022" class="hover:text-white">01021990022</a> <i class="fas fa-phone mt-1 ml-3 text-white"></i></li>
                     </ul>
                 </div>
-                <!-- Useful Links -->
                 <div>
                     <h4 class="text-lg font-bold text-white mb-4">روابط مفيدة</h4>
                     <ul class="text-sm space-y-2">
@@ -440,7 +402,6 @@
                         <li><a href="#" class="hover:text-white">سياسة الخصوصية</a></li>
                     </ul>
                 </div>
-                <!-- Recent Posts -->
                 <div>
                      <h4 class="text-lg font-bold text-white mb-4">أحدث المقالات</h4>
                      <ul class="text-sm space-y-3">
@@ -450,22 +411,19 @@
                 </div>
             </div>
         </div>
-        <!-- Bottom Bar -->
         <div class="bg-[#011c33] py-4">
             <div class="container mx-auto px-4 text-center text-gray-500 text-sm">
                 <p>لمعرفة المزيد راجع <a href="#" class="text-gray-400 hover:text-white underline">سياسة الخصوصية</a> لدينا.</p>
-                <p class="mt-2">&copy; 2025 الدولية. جميع الحقوق محفوظة.</p>
+                <p class="mt-2">&copy; 2025 مركز صيانة سامسونج. جميع الحقوق محفوظة.</p>
             </div>
         </div>
     </footer>
 
-    <!-- Floating Call Button -->
     <a href="tel:17416" class="fixed bottom-64 sm:bottom-5 bg-green-500 text-white font-bold px-5 py-3 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 transition-transform hover:scale-110 z-50 left-5 animate-pulse-custom">
         <i class="fas fa-phone-alt ml-3" style="transform: scaleX(-1);"></i>
         <span>17416</span>
     </a>
 
-    <!-- Offer Banner -->
     <div id="offer-banner" class="fixed bottom-0 left-0 right-0 bg-[#032847] text-white p-3 z-50">
         <div class="container mx-auto flex flex-col sm:flex-row items-center justify-center text-center gap-2">
             <p class="font-bold text-sm sm:text-base">✨ خصم 25% لفترة محدودة! ينتهي العرض خلال:</p>
